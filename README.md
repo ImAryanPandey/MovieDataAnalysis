@@ -1,29 +1,51 @@
-# Movie Data Analysis Project
+# 🎬 Movie Data Analysis Project
 
 ## 📌 Project Overview
+This project focuses on analyzing a large-scale movie dataset to uncover insights into **revenue trends, genre popularity, and industry performance**. The analysis includes **data cleaning, exploratory data analysis (EDA), and business insights** to support decision-making in the movie industry.
 
-This project focuses on analyzing movie data, starting from cleaning raw data to performing exploratory data analysis (EDA) and generating insights. The dataset consists of information about movies, including production budget, box office revenue, genres, and other metadata.
+## 📂 Dataset Information
+- **Source:** Kaggle - Ultimate Movie Metrics Dataset
+- **Total Entries:** 6,569 movies
+- **Features Include:**
+  - **Movie Metadata:** Titles, Release Dates, and Genres
+  - **Financials:** Budgets, Box Office Revenue (Domestic & International)
+  - **Industry Insights:** Production Companies, Franchise Data, and Creative Type
 
-## 🚀 Agile Methodology Implementation
+## 🛠️ Steps Performed
+### 1️⃣ Data Cleaning
+- Removed duplicates & missing values ✅
+- Standardized column names (snake_case) ✅
+- Converted incorrect data types (monetary values, dates) ✅
+- Eliminated future-dated movies ✅
 
-We are following the Agile Methodology to ensure an iterative approach with continuous improvements. Our workflow consists of:
+### 2️⃣ Exploratory Data Analysis (EDA)
+- Analyzed **movie release trends** over the years 📅
+- Identified **most popular genres** 🎭
+- Explored **revenue and box office performance** 💰
+- Examined **budget vs. revenue correlation** 📊
 
-- Sprint Planning - Defining tasks for each phase.
+### 3️⃣ Business Insights & Findings
+- **Peak movie releases occurred in the 2010s** 📆
+- **Top genres:** Action, Drama, Comedy dominate the industry 🎬
+- **International revenue exceeds domestic earnings** 🌍
+- **Higher budgets ≠ guaranteed success** 📉
+- **Top movie studios include Disney, Warner Bros., Universal** 🏆
 
-- Data Cleaning Phase - Processing the raw dataset.
+## 📈 Business Recommendations
+📌 **Invest in high-ROI genres** (Action, Drama, Comedy remain top performers)
+📌 **Optimize budget allocation** (Avoid overspending with low returns)
+📌 **Leverage international markets** (Global revenue outpaces domestic earnings)
+📌 **Expand successful franchises** (Proven IPs generate long-term profits)
+📌 **Strategic release planning** (Align with seasonal trends for maximum impact)
 
-- EDA Phase - Extracting meaningful insights through visualizations.
 
-- Documentation & GitHub Integration - Maintaining proper records of what has been done.
+## 🖥️ Technologies Used
+- **Python 🐍** (Pandas, NumPy, Matplotlib)
+- **Jupyter/Kaggle Notebooks 📒** (For interactive analysis)
+- **GitHub** (Version control & project management)
 
-- Final Review & Enhancements - Improving based on feedback.
+## 📜 License
+This project is open-source and available under the **MIT License**.
 
-## 📊 Requirements Analysis
-
-- Business Goal: Understand movie performance based on financial metrics and other factors.
-
-- Dataset Source: Kaggle movie dataset (Raw Data used for cleaning).
-
-- Data Cleaning Needs: Handling missing values, fixing data types, and removing inconsistencies.
-
-- Tools Used: Python (Pandas, NumPy, Matplotlib, Seaborn), Kaggle, Jupyter Notebook, GitHub.
+---
+🔗 **Feel free to contribute!** If you find this project helpful, give it a ⭐ on GitHub!
